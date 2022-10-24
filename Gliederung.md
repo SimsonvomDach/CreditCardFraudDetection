@@ -21,8 +21,9 @@
 ## Abstract
 The first impression of the work. Tries to explain every part of the paper in around two sentences each and create interest in the paper. Will be created last.
 
-## Motivation
-Motivation serves as the real introduction. You state the problem and its importance. Afterwards, explain the solution and your method to create this solution. It's important to address the target group, use of the knowledge and reason for research. After reading the motivation, the reader should have clear vision of what to expect from this paper.
+## Related Work
+Find work close to this. I.e. reinforcement learning, GNN-learning, simple regression, or other related work, that explains the necessity for this project.
+Related work serves as the real introduction. You state the problem and its importance. Afterwards, explain the solution and your method to create this solution. It's important to address the target group, use of the knowledge and reason for research. After reading the motivation, the reader should have clear vision of what to expect from this paper.
 
 ## Methodology
 The method in this case is machine learning. Via feed-forward Neural Net, you train an algorithm to build a model for predicting unseen data. To do this, we have to do different tasks:
@@ -34,4 +35,12 @@ The method in this case is machine learning. Via feed-forward Neural Net, you tr
 5. Testing (Load Model into Test Split to measure performance on unseen Data)
 6. Hyperparameter-Tuning (To increase performance on unseen Data, batch-size, epochs, layers 
     and learning rate may be altered)
+    
+## Experimental Results
+Here you fit the method onto the dataset. Actual results of the neural net training. 
+*Question:* Do I measure accuracy as the average precision/recall of 30 trainings?
+
+## Conclusion and Perspective:
+State whether this algorithm is a good fit for this problem. Discuss issues and improvements on the future. Compare to other algorithms perhaps.
+
 
